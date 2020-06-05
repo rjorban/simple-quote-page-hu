@@ -22,5 +22,34 @@ body {
 }
 html, body {
     font-size: 100%;
+    line-height: 1.3;
+}
+/* Media Query === On screens that are 600px or more */
+@media screen and (min-width: 768px) {
+  .quote {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4.5vh;
+}
+.wrapper {
+    padding-top: 4vw;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(assets/freedom.jpg) no-repeat center;
+    background-size: cover;
+    color: #333;
+}
+.author {
+    font-family: 'Crimson Text', serif;
+    font-size: 4vh;
+    font-style: italic;
+}
+html, body {
+    font-size: 100%;
     line-height: 1.5;
+}
 }
